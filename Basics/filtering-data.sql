@@ -2,7 +2,6 @@
 
 /*
     DISTINCT - select distinct values in one or more columns of a table.
-
 */
 
 -- Returns column_name1 and column_name2 with unique values
@@ -64,12 +63,10 @@ SELECT column_price FROM table_name WHERE column_price IN(SELECT column_name FRO
 
 /*
     BETWEEN – test if a value is between a range of values.
-
 */
 
 SELECT column_price FROM table_name WHERE column_price BETWEEN 100 AND 500;
 SELECT column_price FROM table_name WHERE column_price NOT BETWEEN 100 AND 500;
-
 
 -- 7.
 
@@ -87,7 +84,6 @@ SELECT column_price FROM table_name WHERE column_price NOT BETWEEN 100 AND 500;
 SELECT column_price FROM table_name WHERE column_price LIKE '%a%'
 -- treats '%' literal string
 SELECT column_price FROM table_name WHERE column_price LIKE '%30!%%' ESCAPE '!';
-
 
 -- 8.
 

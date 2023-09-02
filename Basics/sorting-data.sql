@@ -11,7 +11,6 @@ ORDER BY
     column_name asc;
     --column_name | expression [ASC | DESC ];
 
-
 -- e.g.
 
 SELECT column_name1, column_name2 FROM table_name ORDER BY column_name1 desc, LEN(column_name2) asc;
